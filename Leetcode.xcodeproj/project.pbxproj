@@ -38,6 +38,9 @@
 		C6C3083024B9E7D00033D268 /* 7. Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3082F24B9E7D00033D268 /* 7. Reverse Integer.swift */; };
 		C6C3083124B9E7D00033D268 /* 7. Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3082F24B9E7D00033D268 /* 7. Reverse Integer.swift */; };
 		C6C3083324B9E8190033D268 /* Test Reverse Integer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3083224B9E8190033D268 /* Test Reverse Integer.swift */; };
+		C6C3083524B9EF490033D268 /* 50. Pow(x, n).swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3083424B9EF490033D268 /* 50. Pow(x, n).swift */; };
+		C6C3083624B9EF490033D268 /* 50. Pow(x, n).swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3083424B9EF490033D268 /* 50. Pow(x, n).swift */; };
+		C6C3083824B9EF7C0033D268 /* Test Pow(x, n).swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C3083724B9EF7C0033D268 /* Test Pow(x, n).swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,8 @@
 		C6C3081F24B9A97A0033D268 /* Test Integer to Roman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Integer to Roman.swift"; sourceTree = "<group>"; };
 		C6C3082F24B9E7D00033D268 /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
 		C6C3083224B9E8190033D268 /* Test Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Reverse Integer.swift"; sourceTree = "<group>"; };
+		C6C3083424B9EF490033D268 /* 50. Pow(x, n).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "50. Pow(x, n).swift"; sourceTree = "<group>"; };
+		C6C3083724B9EF7C0033D268 /* Test Pow(x, n).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Pow(x, n).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +165,7 @@
 				C6AEE92024B9A4840082AD4D /* Test Compare Version Numbers.swift */,
 				C6C3081F24B9A97A0033D268 /* Test Integer to Roman.swift */,
 				C6C3083224B9E8190033D268 /* Test Reverse Integer.swift */,
+				C6C3083724B9EF7C0033D268 /* Test Pow(x, n).swift */,
 			);
 			path = "Solution Tests";
 			sourceTree = "<group>";
@@ -175,6 +181,7 @@
 				C6AEE91D24B9A3DB0082AD4D /* 165. Compare Version Numbers.swift */,
 				C6C3081C24B9A90C0033D268 /* 12. Integer to Roman.swift */,
 				C6C3082F24B9E7D00033D268 /* 7. Reverse Integer.swift */,
+				C6C3083424B9EF490033D268 /* 50. Pow(x, n).swift */,
 			);
 			path = Solution;
 			sourceTree = "<group>";
@@ -290,6 +297,7 @@
 				C6AEE8DE24B996FB0082AD4D /* AppDelegate.swift in Sources */,
 				C6AEE8E024B996FB0082AD4D /* SceneDelegate.swift in Sources */,
 				C6AEE91924B99C080082AD4D /* 26. Remove Duplicates from Sorted Array.swift in Sources */,
+				C6C3083524B9EF490033D268 /* 50. Pow(x, n).swift in Sources */,
 				C6AEE8E224B996FB0082AD4D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,7 +321,9 @@
 				C6AEE90624B9980A0082AD4D /* Test Maximum Subarray.swift in Sources */,
 				C6AEE90724B998230082AD4D /* 53. Maximum Subarray.swift in Sources */,
 				C6AEE91224B99B250082AD4D /* 67. Add Binary.swift in Sources */,
+				C6C3083824B9EF7C0033D268 /* Test Pow(x, n).swift in Sources */,
 				C6C3083324B9E8190033D268 /* Test Reverse Integer.swift in Sources */,
+				C6C3083624B9EF490033D268 /* 50. Pow(x, n).swift in Sources */,
 				C6AEE90B24B99A100082AD4D /* Test Plus One.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

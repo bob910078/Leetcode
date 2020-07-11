@@ -40,17 +40,4 @@ class Test_Reverse_Integer: XCTestCase {
         XCTAssertEqual(output, ans)
     }
     
-    
-    func testPower() {
-        XCTAssertEqual(pow(2, 0), 1)
-        XCTAssertEqual(pow(2, 1), 2)
-        XCTAssertEqual(pow(2, 2), 4)
-        XCTAssertEqual(pow(2, 3), 8)
-        XCTAssertEqual(pow(2, 4), 16)
-        XCTAssertEqual(pow(2, 5), 32)
-        XCTAssertEqual(pow(2, 6), 64)
-        XCTAssertEqual(pow(2, 6), 64)
-        XCTAssertEqual(pow(10, 3), 1000)
-    }
-    
 }
