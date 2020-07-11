@@ -33,20 +33,9 @@ public class TreeNode {
 }
 
 func maxDepth(_ root: TreeNode?) -> Int {
-    
-    func minDepth(_ root: TreeNode?) -> Int {
-        if root == nil {
-            return 0
-        }
-        let l = minDepth(root?.left)
-        let r = minDepth(root?.right)
-        if l == 0 || r == 0 {
-            return 1
-        } else {
-            return max(l, r) + 1 // 左右都有時取較大的
-        }
-    }
-    
-    return minDepth(root)
+    if root == nil { return 0 }
+    let l = maxDepth(root?.left)
+    let r = maxDepth(root?.right)
+    return max(l, r) + 1
 }
 
