@@ -17,6 +17,9 @@
 		C6AEE90124B9978F0082AD4D /* Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE90024B9978F0082AD4D /* Maximum Subarray.swift */; };
 		C6AEE90624B9980A0082AD4D /* Test Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE90524B9980A0082AD4D /* Test Maximum Subarray.swift */; };
 		C6AEE90724B998230082AD4D /* Maximum Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE90024B9978F0082AD4D /* Maximum Subarray.swift */; };
+		C6AEE90924B999E90082AD4D /* Plus One.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE90824B999E90082AD4D /* Plus One.swift */; };
+		C6AEE90B24B99A100082AD4D /* Test Plus One.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE90A24B99A100082AD4D /* Test Plus One.swift */; };
+		C6AEE90C24B99A230082AD4D /* Plus One.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE90824B999E90082AD4D /* Plus One.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,8 @@
 		C6AEE8F624B996FE0082AD4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6AEE90024B9978F0082AD4D /* Maximum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Maximum Subarray.swift"; sourceTree = "<group>"; };
 		C6AEE90524B9980A0082AD4D /* Test Maximum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Maximum Subarray.swift"; sourceTree = "<group>"; };
+		C6AEE90824B999E90082AD4D /* Plus One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Plus One.swift"; sourceTree = "<group>"; };
+		C6AEE90A24B99A100082AD4D /* Test Plus One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Plus One.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,7 @@
 		C6AEE8D124B996FB0082AD4D = {
 			isa = PBXGroup;
 			children = (
+				C6AEE90D24B99A8F0082AD4D /* Solution */,
 				C6AEE8DC24B996FB0082AD4D /* Leetcode */,
 				C6AEE8F324B996FE0082AD4D /* LeetcodeTests */,
 				C6AEE8DB24B996FB0082AD4D /* Products */,
@@ -84,7 +90,6 @@
 		C6AEE8DC24B996FB0082AD4D /* Leetcode */ = {
 			isa = PBXGroup;
 			children = (
-				C6AEE8FF24B997130082AD4D /* Array */,
 				C6AEE8DD24B996FB0082AD4D /* AppDelegate.swift */,
 				C6AEE8DF24B996FB0082AD4D /* SceneDelegate.swift */,
 				C6AEE8E124B996FB0082AD4D /* ContentView.swift */,
@@ -107,27 +112,29 @@
 		C6AEE8F324B996FE0082AD4D /* LeetcodeTests */ = {
 			isa = PBXGroup;
 			children = (
-				C6AEE90224B997D10082AD4D /* Array */,
+				C6AEE90224B997D10082AD4D /* Solution Tests */,
 				C6AEE8F424B996FE0082AD4D /* LeetcodeTests.swift */,
 				C6AEE8F624B996FE0082AD4D /* Info.plist */,
 			);
 			path = LeetcodeTests;
 			sourceTree = "<group>";
 		};
-		C6AEE8FF24B997130082AD4D /* Array */ = {
+		C6AEE90224B997D10082AD4D /* Solution Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C6AEE90A24B99A100082AD4D /* Test Plus One.swift */,
+				C6AEE90524B9980A0082AD4D /* Test Maximum Subarray.swift */,
+			);
+			path = "Solution Tests";
+			sourceTree = "<group>";
+		};
+		C6AEE90D24B99A8F0082AD4D /* Solution */ = {
 			isa = PBXGroup;
 			children = (
 				C6AEE90024B9978F0082AD4D /* Maximum Subarray.swift */,
+				C6AEE90824B999E90082AD4D /* Plus One.swift */,
 			);
-			path = Array;
-			sourceTree = "<group>";
-		};
-		C6AEE90224B997D10082AD4D /* Array */ = {
-			isa = PBXGroup;
-			children = (
-				C6AEE90524B9980A0082AD4D /* Test Maximum Subarray.swift */,
-			);
-			path = Array;
+			path = Solution;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6AEE90124B9978F0082AD4D /* Maximum Subarray.swift in Sources */,
+				C6AEE90924B999E90082AD4D /* Plus One.swift in Sources */,
 				C6AEE8DE24B996FB0082AD4D /* AppDelegate.swift in Sources */,
 				C6AEE8E024B996FB0082AD4D /* SceneDelegate.swift in Sources */,
 				C6AEE8E224B996FB0082AD4D /* ContentView.swift in Sources */,
@@ -243,8 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6AEE8F524B996FE0082AD4D /* LeetcodeTests.swift in Sources */,
+				C6AEE90C24B99A230082AD4D /* Plus One.swift in Sources */,
 				C6AEE90624B9980A0082AD4D /* Test Maximum Subarray.swift in Sources */,
 				C6AEE90724B998230082AD4D /* Maximum Subarray.swift in Sources */,
+				C6AEE90B24B99A100082AD4D /* Test Plus One.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
