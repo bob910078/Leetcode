@@ -10,7 +10,7 @@ import XCTest
 
 class Test_Add_Two_Numbers: XCTestCase {
     
-    func testA() {
+    func test1() {
         let a = ListNode(2, ListNode(4, ListNode(3)))
         let b = ListNode(5, ListNode(6, ListNode(4)))
         let output = addTwoNumbers(a, b)
@@ -18,7 +18,7 @@ class Test_Add_Two_Numbers: XCTestCase {
         XCTAssertEqual(output, ans)
     }
     
-    func testB() {
+    func test2() {
         let a = ListNode(0)
         let b = ListNode(0)
         let output = addTwoNumbers(a, b)
@@ -26,7 +26,7 @@ class Test_Add_Two_Numbers: XCTestCase {
         XCTAssertEqual(output, ans)
     }
     
-    func testC() {
+    func test3() {
         let a = ListNode(5)
         let b = ListNode(5)
         let output = addTwoNumbers(a, b)
@@ -34,7 +34,7 @@ class Test_Add_Two_Numbers: XCTestCase {
         XCTAssertEqual(output, ans)
     }
     
-    func testD() {
+    func test4() {
         let a = ListNode(1, ListNode(8))
         let b = ListNode(0)
         let output = addTwoNumbers(a, b)

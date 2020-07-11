@@ -26,6 +26,9 @@
 		C6AEE91424B99B6B0082AD4D /* 2. Add Two Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE91324B99B6B0082AD4D /* 2. Add Two Numbers.swift */; };
 		C6AEE91524B99B6B0082AD4D /* 2. Add Two Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE91324B99B6B0082AD4D /* 2. Add Two Numbers.swift */; };
 		C6AEE91724B99B930082AD4D /* Test Add Two Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE91624B99B930082AD4D /* Test Add Two Numbers.swift */; };
+		C6AEE91924B99C080082AD4D /* 26. Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE91824B99C080082AD4D /* 26. Remove Duplicates from Sorted Array.swift */; };
+		C6AEE91A24B99C080082AD4D /* 26. Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE91824B99C080082AD4D /* 26. Remove Duplicates from Sorted Array.swift */; };
+		C6AEE91C24B99C170082AD4D /* Test Remove Duplicates from Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE91B24B99C170082AD4D /* Test Remove Duplicates from Sorted Array.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,8 @@
 		C6AEE91024B99B150082AD4D /* Test Add Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Add Binary.swift"; sourceTree = "<group>"; };
 		C6AEE91324B99B6B0082AD4D /* 2. Add Two Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2. Add Two Numbers.swift"; sourceTree = "<group>"; };
 		C6AEE91624B99B930082AD4D /* Test Add Two Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Add Two Numbers.swift"; sourceTree = "<group>"; };
+		C6AEE91824B99C080082AD4D /* 26. Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26. Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
+		C6AEE91B24B99C170082AD4D /* Test Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +141,7 @@
 				C6AEE90524B9980A0082AD4D /* Test Maximum Subarray.swift */,
 				C6AEE91024B99B150082AD4D /* Test Add Binary.swift */,
 				C6AEE91624B99B930082AD4D /* Test Add Two Numbers.swift */,
+				C6AEE91B24B99C170082AD4D /* Test Remove Duplicates from Sorted Array.swift */,
 			);
 			path = "Solution Tests";
 			sourceTree = "<group>";
@@ -147,6 +153,7 @@
 				C6AEE90824B999E90082AD4D /* 66. Plus One.swift */,
 				C6AEE90E24B99AF70082AD4D /* 67. Add Binary.swift */,
 				C6AEE91324B99B6B0082AD4D /* 2. Add Two Numbers.swift */,
+				C6AEE91824B99C080082AD4D /* 26. Remove Duplicates from Sorted Array.swift */,
 			);
 			path = Solution;
 			sourceTree = "<group>";
@@ -258,6 +265,7 @@
 				C6AEE90F24B99AF70082AD4D /* 67. Add Binary.swift in Sources */,
 				C6AEE8DE24B996FB0082AD4D /* AppDelegate.swift in Sources */,
 				C6AEE8E024B996FB0082AD4D /* SceneDelegate.swift in Sources */,
+				C6AEE91924B99C080082AD4D /* 26. Remove Duplicates from Sorted Array.swift in Sources */,
 				C6AEE8E224B996FB0082AD4D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +278,8 @@
 				C6AEE91724B99B930082AD4D /* Test Add Two Numbers.swift in Sources */,
 				C6AEE8F524B996FE0082AD4D /* LeetcodeTests.swift in Sources */,
 				C6AEE91524B99B6B0082AD4D /* 2. Add Two Numbers.swift in Sources */,
+				C6AEE91C24B99C170082AD4D /* Test Remove Duplicates from Sorted Array.swift in Sources */,
+				C6AEE91A24B99C080082AD4D /* 26. Remove Duplicates from Sorted Array.swift in Sources */,
 				C6AEE90C24B99A230082AD4D /* 66. Plus One.swift in Sources */,
 				C6AEE90624B9980A0082AD4D /* Test Maximum Subarray.swift in Sources */,
 				C6AEE90724B998230082AD4D /* 53. Maximum Subarray.swift in Sources */,

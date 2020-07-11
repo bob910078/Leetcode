@@ -10,7 +10,7 @@ import XCTest
 
 class Test_Add_Binary: XCTestCase {
     
-    func testAddBinary1() {
+    func test1() {
         let a = "11"
         let b = "1"
         let output = addBinary(a, b)
@@ -18,7 +18,7 @@ class Test_Add_Binary: XCTestCase {
         XCTAssertEqual(output, ans)
     }
     
-    func testAddBinary2() {
+    func test2() {
         let a = "1010"
         let b = "1011"
         let output = addBinary(a, b)
