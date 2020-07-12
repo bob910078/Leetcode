@@ -47,19 +47,19 @@ class Test_Unique_Binary_Search_Trees: XCTestCase {
     }
     
     func test7() {
-        let output = numTreesBottomUp(5)
+        let output = numTreesDynamicProgramming(5)
         let ans = 42
         XCTAssertEqual(output, ans)
     }
     
     func test8() {
-        let output = numTreesBottomUp(10)
+        let output = numTreesDynamicProgramming(10)
         let ans = 16796
         XCTAssertEqual(output, ans)
     }
     
     func test9() {
-        let output = numTreesBottomUp(23)
+        let output = numTreesDynamicProgramming(23)
         let ans = 343059613650
         XCTAssertEqual(output, ans)
     }

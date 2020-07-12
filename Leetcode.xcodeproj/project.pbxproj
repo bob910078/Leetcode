@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C608C20024BA9F6700E9676D /* 120. Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C608C1FF24BA9F6700E9676D /* 120. Triangle.swift */; };
+		C608C20124BA9F6700E9676D /* 120. Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C608C1FF24BA9F6700E9676D /* 120. Triangle.swift */; };
+		C608C20324BAA02D00E9676D /* Test Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C608C20224BAA02D00E9676D /* Test Triangle.swift */; };
 		C6AEE8DE24B996FB0082AD4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE8DD24B996FB0082AD4D /* AppDelegate.swift */; };
 		C6AEE8E024B996FB0082AD4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE8DF24B996FB0082AD4D /* SceneDelegate.swift */; };
 		C6AEE8E224B996FB0082AD4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AEE8E124B996FB0082AD4D /* ContentView.swift */; };
@@ -60,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C608C1FF24BA9F6700E9676D /* 120. Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "120. Triangle.swift"; sourceTree = "<group>"; };
+		C608C20224BAA02D00E9676D /* Test Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test Triangle.swift"; sourceTree = "<group>"; };
 		C6AEE8DA24B996FB0082AD4D /* Leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6AEE8DD24B996FB0082AD4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6AEE8DF24B996FB0082AD4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +183,7 @@
 				C6C3083724B9EF7C0033D268 /* Test Pow(x, n).swift */,
 				C6C3083C24B9FB670033D268 /* Test Maximum Depth of Binary Tree.swift */,
 				C6C3084124B9FEC60033D268 /* Test Unique Binary Search Trees.swift */,
+				C608C20224BAA02D00E9676D /* Test Triangle.swift */,
 			);
 			path = "Solution Tests";
 			sourceTree = "<group>";
@@ -196,6 +202,7 @@
 				C6C3083424B9EF490033D268 /* 50. Pow(x, n).swift */,
 				C6C3083924B9F8F00033D268 /* 104. Maximum Depth of Binary Tree.swift */,
 				C6C3083E24B9FE900033D268 /* 96. Unique Binary Search Trees.swift */,
+				C608C1FF24BA9F6700E9676D /* 120. Triangle.swift */,
 			);
 			path = Solution;
 			sourceTree = "<group>";
@@ -307,6 +314,7 @@
 				C6C3083F24B9FE900033D268 /* 96. Unique Binary Search Trees.swift in Sources */,
 				C6AEE90924B999E90082AD4D /* 66. Plus One.swift in Sources */,
 				C6C3083A24B9F8F00033D268 /* 104. Maximum Depth of Binary Tree.swift in Sources */,
+				C608C20024BA9F6700E9676D /* 120. Triangle.swift in Sources */,
 				C6C3081D24B9A90C0033D268 /* 12. Integer to Roman.swift in Sources */,
 				C6C3083024B9E7D00033D268 /* 7. Reverse Integer.swift in Sources */,
 				C6AEE90F24B99AF70082AD4D /* 67. Add Binary.swift in Sources */,
@@ -328,6 +336,7 @@
 				C6C3083D24B9FB670033D268 /* Test Maximum Depth of Binary Tree.swift in Sources */,
 				C6AEE91724B99B930082AD4D /* Test Add Two Numbers.swift in Sources */,
 				C6AEE8F524B996FE0082AD4D /* LeetcodeTests.swift in Sources */,
+				C608C20324BAA02D00E9676D /* Test Triangle.swift in Sources */,
 				C6C3082024B9A97A0033D268 /* Test Integer to Roman.swift in Sources */,
 				C6AEE91524B99B6B0082AD4D /* 2. Add Two Numbers.swift in Sources */,
 				C6AEE91C24B99C170082AD4D /* Test Remove Duplicates from Sorted Array.swift in Sources */,
@@ -343,6 +352,7 @@
 				C6C3084224B9FEC60033D268 /* Test Unique Binary Search Trees.swift in Sources */,
 				C6C3083324B9E8190033D268 /* Test Reverse Integer.swift in Sources */,
 				C6C3083624B9EF490033D268 /* 50. Pow(x, n).swift in Sources */,
+				C608C20124BA9F6700E9676D /* 120. Triangle.swift in Sources */,
 				C6C3083B24B9F8F00033D268 /* 104. Maximum Depth of Binary Tree.swift in Sources */,
 				C6AEE90B24B99A100082AD4D /* Test Plus One.swift in Sources */,
 			);
